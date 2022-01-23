@@ -1,4 +1,4 @@
-import { HashRouter as Router, Route, } from "react-router-dom";
+import { HashRouter as Router, Route, Routes} from "react-router-dom";
 import Home from "./Pages/Home.js";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -10,7 +10,9 @@ function App() {
         <div>
             <Header />
                 <main>
-                    <Route exact path="/" component={Home} />
+                    <Routes>
+                        <Route exact path="/" component={Home} />
+                    </Routes>
                 </main>
             <Footer />
         </div>
