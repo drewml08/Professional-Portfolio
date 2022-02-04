@@ -12,6 +12,7 @@ main {
 
 .row{
   min-height: 300px;
+  margin-top: 100px;
 }
 
 .container-fluid:first-child{

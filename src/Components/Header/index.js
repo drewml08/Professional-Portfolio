@@ -1,5 +1,5 @@
 import React from "react";
-import ScrollSpy from "react-scrollspy-navigation";
+import ScrollSpy from "../ScrollSpy";
 import "./style.css";
 
 
@@ -10,38 +10,27 @@ function Header() {
             <nav id="nav-main" className="navbar navbar-light bg-light">
                 <a className="navbar-brand" href="#"></a>
                 <ul className="nav nav-pills">
-                    <ScrollSpy duration={100} offsetTop={120}>
-                        <a
-                            className="nav-link"
-                            href="#About"
-                            ref={React.createRef()}
-                        >
+                    <ScrollSpy className="nav nav-pills" offset={75} anchorOffset={65} scrollSpeed={65}>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#About" ref={React.createRef()}>
                             About Me
                         </a>
-
-                        <a
-                            className="nav-link"
-                            href="#Resume"
-                            ref={React.createRef()}
-                        >
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Resume" ref={React.createRef()}>
                             Resume
                         </a>
-
-                        <a
-                            className="nav-link"
-                            href="#Portfolio"
-                            ref={React.createRef()}
-                        >
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Portfolio" ref={React.createRef()}>
                             Portfolio
                         </a>
-
-                        <a
-                            className="nav-link"
-                            href="#Contact"
-                            ref={React.createRef()}
-                        >
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Contact" ref={React.createRef()}>
                             Contact
                         </a>
+                    </li>  
                     </ScrollSpy>
                 </ul>
             </nav>
