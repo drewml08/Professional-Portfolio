@@ -1,0 +1,45 @@
+
+.projects-section .intro {
+  margin-bottom: 30px;
+}
+
+.projects-section .item {
+  display: block;
+  width: 85%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects-section .item .project-thumb {
+  width: 256px;
+  height: 150px;
+  margin-right: 10px;
+  float: left;
+}
+
+.projects-section .item .project-title {
+  display: block;
+  font-weight: 500;
+}
+
+.projects-section .item .project-tagline {
+  display: block;
+}
+
+.projects-section .item .project-links li {
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.projects-section .item .project-links a {
+  margin-left: 5px;
+}
+
+.projects-section a
+{
+  color: #3d884d;
+}
