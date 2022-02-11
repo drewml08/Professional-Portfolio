@@ -59,7 +59,8 @@ class ScrollSpy extends React.Component {
         const { offset } = this.props;
         const rect = element.getBoundingClientRect();
 
-        return rect.top >= 0 - offset && rect.bottom <= window.innerHeight + offset;
+        return rect.top >= 0 - offset && rect.bottom <= window.innerHeight + offset || 
+        rect.top <= - offset && rect.bottom >= window.innerHeight + offset;
     };
 
     refreshInView() {
