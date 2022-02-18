@@ -1,13 +1,18 @@
+body{
+  color:rgb(213, 213, 213);
+  background-color: rgb(34, 34, 34);
+}
+
 main {
-  width: 85%;
+  width: 60%;
   margin-top: 130px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 145px;
 }
 
-.active{
-  background-color: red;
+a{
+  color:rgb(213, 213, 213);
 }
 
 .row{

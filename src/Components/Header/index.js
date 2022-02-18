@@ -7,7 +7,7 @@ import "./style.css";
 function Header() {
     return (
         <header className="fixed-top">
-            <nav id="nav-main" className="navbar navbar-light bg-light">
+            <nav id="nav-main" className="navbar">
                 <a className="navbar-brand" href="#"></a>
                 <ul className="nav nav-pills">
                     <ScrollSpy className="nav nav-pills" offset={75} anchorOffset={65} scrollSpeed={65}>
