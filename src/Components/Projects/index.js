@@ -5,7 +5,7 @@ import ProjectItem from "../ProjectItem";
 const projectItems = [ 
 {
         title: "Taco Tavern",
-        description: "Group project full stack app that can be used to order food from restaurants, create an account, view business data",
+        description: "Group project full stack app that can be used to order food from restaurants, create an account, view business data.",
         image: "images/tacotavern.png",
         repoURL: "https://github.com/drewml08/Taco-Tavern",
         webURL: "https://www.taco-tavern.com/"

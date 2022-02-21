@@ -8,14 +8,14 @@ import {
     faPhone,
     faFilePdf,
 } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedinIn, faGithub, faHtml5 } from "@fortawesome/free-brands-svg-icons";
 
 const Home = () => {
     return (
         <Container fluid>
             <Row id="About">
                 <Col size="md-12">
-                    <h3>About Me</h3>
+                    <h1>About Me</h1>
                     <p>
                         {" "}
                         Hello, I'm Mike. I am an aspiring software developer
@@ -29,23 +29,23 @@ const Home = () => {
             </Row>
             <Row id="Resume">
                 <Col size="md-12">
-                    <h3>Resume</h3>
+                    <h1>Resume</h1>
                     <Row>
-                        <Col size="md-6">
-                            <h2 class="container-block-title">Experience</h2>
+                        <Col size="md-5">
+                            <h3 className="pt-3">Experience</h3>
                             <div className="item">
                                 <div className="meta">
                                     <div className="upper-row">
-                                        <h3 className="job-title">
+                                        <h5 className="job-title">
                                             Meat Cutter, Buyer
-                                        </h3>
+                                        </h5>
                                         <div className="time">
                                             2011 - Present
                                         </div>
                                     </div>
-                                    <div className="company">
+                                    <h6>
                                         Whole Foods Market
-                                    </div>
+                                    </h6>
                                 </div>
                                 <div className="details">
                                     <p>
@@ -68,14 +68,14 @@ const Home = () => {
                             <div className="item">
                                 <div className="meta">
                                     <div className="upper-row">
-                                        <h3 className="job-title">
+                                        <h5 className="job-title">
                                             Physical Therapy Technician
-                                        </h3>
+                                        </h5>
                                         <div className="time">2010 - 2011</div>
                                     </div>
-                                    <div className="company">
+                                    <h6>
                                         Advanced Center for Physical Therapy
-                                    </div>
+                                    </h6>
                                 </div>
                                 <div className="details">
                                     <p>
@@ -90,39 +90,42 @@ const Home = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col size="md-6">
+                        <Col size="md-2">
+                            
+                        </Col>
+                        <Col size="md-5">
                             <div class="education-container container-block">
-                                <h2 class="container-block-title">Education</h2>
+                                <h3 className="pt-3">Education</h3>
                                 <div class="item">
-                                    <h4 class="degree">Coding Boot Camp</h4>
-                                    <h5 class="meta">
+                                    <h5 class="degree">Coding Boot Camp</h5>
+                                    <h6 class="meta">
                                         University of North Carolina
                                         <br />
                                         Charlotte, NC
-                                    </h5>
+                                    </h6>
                                     <div class="time">2021</div>
                                 </div>
                                 <div class="item">
-                                    <h4 class="degree">
+                                    <h5 class="degree">
                                         Bachelor of Business Administration
-                                    </h4>
-                                    <h5 class="meta">
+                                    </h5>
+                                    <h6 class="meta">
                                         James Madison University
                                         <br />
                                         Harrisonburg, VA
-                                    </h5>
+                                    </h6>
                                     <div class="time">2005 - 2008</div>
                                 </div>
                                 <div class="item">
-                                    <h4 class="degree">
+                                    <h5 class="degree">
                                         Associate in Science of Business
                                         Administration
-                                    </h4>
-                                    <h5 class="meta">
+                                    </h5>
+                                    <h6 class="meta">
                                         Piedmont Virginia Community College
                                         <br />
                                         Charlottesville, VA
-                                    </h5>
+                                    </h6>
                                     <div class="time">2002 - 2004</div>
                                 </div>
                             </div>
@@ -136,20 +139,20 @@ const Home = () => {
             </Row>
             <Row id="Contact">
                 <Col size="md-12">
-                    <h3>Contact</h3>
+                    <h1>Contact</h1>
                     <ul className="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                         <li>
-                            <FontAwesomeIcon icon={faEnvelope} />
+                            <FontAwesomeIcon icon={faEnvelope} color="rgb(0, 124, 237)"/>
                             <a href="mailto:drewml08@gmail.com">
                                 drewml08@gmail.com
                             </a>
                         </li>
                         <li className="ps-5">
-                            <FontAwesomeIcon icon={faPhone} />
+                            <FontAwesomeIcon icon={faPhone} color="rgb(0, 124, 237)"/>
                             <a href="tel:704-763-4485">704-763-4485</a>
                         </li>
                         <li className="ps-5">
-                            <FontAwesomeIcon icon={faLinkedinIn} />
+                            <FontAwesomeIcon icon={faLinkedinIn} color="rgb(0, 124, 237)"/>
                             <a
                                 href="https://www.linkedin.com/in/michael-drew-a2896271/"
                                 target="_blank"
@@ -158,7 +161,7 @@ const Home = () => {
                             </a>
                         </li>
                         <li className="ps-5">
-                            <FontAwesomeIcon icon={faGithub} />
+                            <FontAwesomeIcon icon={faGithub} color="rgb(0, 124, 237)"/>
                             <a
                                 href="https://github.com/drewml08"
                                 target="_blank"
@@ -167,7 +170,7 @@ const Home = () => {
                             </a>
                         </li>
                         <li className="ps-5">
-                            <FontAwesomeIcon icon={faFilePdf} />
+                            <FontAwesomeIcon icon={faFilePdf} color="rgb(0, 124, 237)"/>
                             <Link
                                 to="/files/resume.pdf"
                                 target="_blank"

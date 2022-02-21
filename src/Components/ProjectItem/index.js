@@ -24,11 +24,11 @@ function ProjectItem(props) {
 		 	<Col size="md-12">
 		 		<div className="item">
 		 		<img className="project-thumb shadow" src={item.image} alt="" />
-					<span className="project-title">{item.title}</span>
+					<h4>{item.title}</h4>
 					<span className="project-tagline">{item.description}</span>
 					<ul className="list-unstyled project-links">
-			            <li className="github"><FontAwesomeIcon icon={faGithub} /><a href={item.repoURL} target="_blank">Repository</a></li>
-			            <li className="website"><FontAwesomeIcon icon={faGlobe} /><a href={item.webURL} target="_blank">Website</a></li>
+			            <li className="github"><FontAwesomeIcon icon={faGithub} color="rgb(0, 124, 237)"/><a href={item.repoURL} target="_blank">Repository</a></li>
+			            <li className="website"><FontAwesomeIcon icon={faGlobe} color="rgb(0, 124, 237)"/><a href={item.webURL} target="_blank">Website</a></li>
 			        </ul>
 		        </div>
 			</Col>
