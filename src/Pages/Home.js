@@ -94,39 +94,39 @@ const Home = () => {
                             
                         </Col>
                         <Col size="md-5">
-                            <div class="education-container container-block">
+                            <div className="education-container container-block">
                                 <h3 className="pt-3">Education</h3>
-                                <div class="item">
-                                    <h5 class="degree">Coding Boot Camp</h5>
-                                    <h6 class="meta">
+                                <div className="item">
+                                    <h5 className="degree">Coding Boot Camp</h5>
+                                    <h6 className="meta">
                                         University of North Carolina
                                         <br />
                                         Charlotte, NC
                                     </h6>
-                                    <div class="time">2021</div>
+                                    <div className="time">2021</div>
                                 </div>
-                                <div class="item">
-                                    <h5 class="degree">
+                                <div className="item">
+                                    <h5 className="degree">
                                         Bachelor of Business Administration
                                     </h5>
-                                    <h6 class="meta">
+                                    <h6 className="meta">
                                         James Madison University
                                         <br />
                                         Harrisonburg, VA
                                     </h6>
-                                    <div class="time">2005 - 2008</div>
+                                    <div className="time">2005 - 2008</div>
                                 </div>
-                                <div class="item">
-                                    <h5 class="degree">
+                                <div className="item">
+                                    <h5 className="degree">
                                         Associate in Science of Business
                                         Administration
                                     </h5>
-                                    <h6 class="meta">
+                                    <h6 className="meta">
                                         Piedmont Virginia Community College
                                         <br />
                                         Charlottesville, VA
                                     </h6>
-                                    <div class="time">2002 - 2004</div>
+                                    <div className="time">2002 - 2004</div>
                                 </div>
                             </div>
                         </Col>

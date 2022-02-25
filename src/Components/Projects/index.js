@@ -4,6 +4,7 @@ import ProjectItem from "../ProjectItem";
 
 const projectItems = [ 
 {
+        key: "Project1",  
         title: "Taco Tavern",
         description: "Group project full stack app that can be used to order food from restaurants, create an account, view business data.",
         image: "images/tacotavern.png",
@@ -11,6 +12,7 @@ const projectItems = [
         webURL: "https://www.taco-tavern.com/"
 },
 {
+    key: "Project2",  
     title: "Recipe-Gram",
     description: "Group project to develop a full stack web app that can be used to view, post, and store recipes.",
     image: "images/Recipe-Gram.png",
@@ -18,6 +20,7 @@ const projectItems = [
     webURL: "https://recipe-gram-best-team.herokuapp.com/"
 },
 {
+    key: "Project3",  
     title: "Budget Tracker",
     description: "The assignment was to create a progessive web app that allowed a user to create a budget to track deposits and withdrawals, as well as being able to do this offline as well as online. Starter code was provided, largely front end was added with a few back end adjustments. Technologies used were MongoDB, indexedDB, Mongoose schema and Express.",
     image: "images/budget_tracker.png",
@@ -25,6 +28,7 @@ const projectItems = [
     webURL: "https://week18-hw-budget-tracker.herokuapp.com/"
 },
 {
+    key: "Project4",  
     title: "Fitness Tracker",
     description: "The assignment was to create an app that allowed a user to create and track daily workouts as well as add new exercises to existing workouts. Front end starter code was provided, back end was completed using MongoDB, Mongoose schema and Express.",
     image: "images/fitness_tracker.png",
@@ -32,6 +36,7 @@ const projectItems = [
     webURL: "https://uncc-week17hw.herokuapp.com/"
 },
 {
+    key: "Project5",  
     title: "Professional README Generator",
     description: "This assignment was to create a program that generated a professional README file that developers could use for GitHub projects.",
     image: "images/readme_gen.gif",
@@ -39,6 +44,7 @@ const projectItems = [
     webURL: ""
 },
 {
+    key: "Project6",  
     title: "Workday Scheduler",
     description: "Homework assignment to demonstrate the use of Bootstrap, Javascript and Local Storage to implement a work day scheduler.",
     image: "images/project_scheduler.png",
@@ -48,6 +54,7 @@ const projectItems = [
     
 },
 {
+    key: "Project7",  
     title: "Coding Quiz",
     description: "Homework assignment to implement an interactive, timed, coding quiz. Highscores are saved between sessions using Local Storage.",
     image: "images/project_quiz.png",    

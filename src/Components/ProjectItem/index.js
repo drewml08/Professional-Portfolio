@@ -20,7 +20,7 @@ import "./style.css";
 function ProjectItem(props) {
 	const items = props.items;
 	const listItems = items.map((item) =>
-		<Row>
+		<Row key={item.key}>
 		 	<Col size="md-12">
 		 		<div className="item">
 		 		<img className="project-thumb shadow" src={item.image} alt="" />
