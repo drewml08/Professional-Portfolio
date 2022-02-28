@@ -35,11 +35,11 @@ a{
 
 
 
-.container-fluid:first-child{
+main .container-fluid:first-child{
   margin-top: 100px;
 }
 
-.container-fluid:last-child{
+main .container-fluid:last-child{
   padding-bottom: 200px;
 }
 
